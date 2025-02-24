@@ -1,0 +1,35 @@
+trip whiz/
+│── backend/                  
+│   ├── modules/              # Separate modules for different functionalities
+│   │   ├── user-management/  # User authentication, profiles
+│   │   │   ├── controllers/
+│   │   │   ├── models/
+│   │   │   ├── routes/
+│   │   │   ├── services/
+│   │   ├── tour-packages/    # Tour listings, search, details
+│   │   ├── bookings/         # Booking and reservation management
+│   │   ├── admin-dashboard/  # Admin control for users, bookings, and tours
+│   ├── config/               # Database, API keys, etc.
+│   ├── middleware/           # Authentication, logging, etc.
+│   ├── index.js              # Entry point for backend
+│
+│── frontend/                 # Frontend for user and admin
+│   ├── src/
+│   │   ├── modules/
+│   │   │   ├── user-management/  
+│   │   │   ├── tour-packages/
+│   │   │   ├── bookings/
+│   │   │   ├── admin-dashboard/
+│   │   ├── components/       # Reusable UI components
+│   │   ├── services/         # API calls (Axios, Fetch)
+│   │   ├── pages/            # Individual pages for each module
+│   ├── public/               # Static assets (images, icons, etc.)
+│   ├── App.js                # Main component
+│
+│── database/                 # SQL/NoSQL database files, migrations
+│── docs/                     # API documentation, user guides
+│── scripts/                  # Deployment scripts
+│── .env                      # Environment variables
+│── package.json              # Dependencies and project metadata
+│── README.md                 # Project instructions
+│── .gitignore                # Files to ignore in Git
